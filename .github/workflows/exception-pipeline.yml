@@ -22,7 +22,7 @@ jobs:
 
     # Upload the SARIF file as an artifact
     - name: Upload SARIF Report
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: SARIFREPORT
         path: result.sarif
